@@ -8,10 +8,14 @@ export default function About() {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           {/* about me title */}
           <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+            <p className="text-4xl font-bold inline border-b-4 border-primary">
               About me
             </p>
-            <img src={avatar} alt="" className=" float-left w-1/2" />
+            <img
+              src={avatar}
+              alt=""
+              className=" rounded-lg float-left w-1/2 px-2 py-4"
+            />
             <div>
               <p className="text-4xl font-bold py-4">
                 Hi my name is <span className="">Edgar Montano</span>.
@@ -22,10 +26,13 @@ export default function About() {
           {/* about me text */}
           <div className="max-w-[1000px] w-full grid grid-cols">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
-              accusamus hic nobis impedit reprehenderit beatae repudiandae porro
-              quod facere sunt ullam voluptas ex vitae provident assumenda
-              adipisci id! Fuga, inventore?
+              I've been programming since the age of 12. With a degree in
+              Computer Science from New York University, I've been able to
+              create many wonderful programs, including a child-friendly Linux
+              Operating System, Kidify; along with an educational content
+              management system. I've also done various consultant work for
+              startup companies, most recently I've worked on various projects
+              for RustyTub IT Solutions.
             </p>
           </div>
         </div>

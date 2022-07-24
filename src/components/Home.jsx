@@ -2,7 +2,7 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import TypeWriterEffect from "react-typewriter-effect";
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div name="home" className="w-full h-screen bg-bgdark">
       {/* Home */}
@@ -31,17 +31,19 @@ export default function Home() {
             typeSpeed={50}
           />
         </h2>
-        <p className="py-4 max-w-700px text-city">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt odio
-          culpa aspernatur praesentium, quam perspiciatis at id doloribus
-          voluptate enim expedita ullam? Molestias ab atque voluptatibus.
-          Maiores quis voluptate suscipit!
+        <p className="py-4 max-w-700px text-white">
+          Edgar Montano is a Degreed Computer Scientist with 5+ years of
+          experience in programming, collaboration, critical thinking, problem
+          solving, and project management. Specialty in various fields of
+          Software Engineering including but not limited to; Full Stack Web
+          Development, Backend Programming, API Development, and Large Scale Web
+          Applications.
         </p>
         <div className="">
-          <button className="text-white group group-hover border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+          <button className="text-white  hover:animate-pulse duration-300 border-2 px-6 py-3 my-2 flex items-center hover:bg-primary hover:border-secondary">
             View Source Code
-            <span className="group-hover:rotate-90 duration-100">
-              <HiArrowNarrowRight className="ml-4" />
+            <span className="group-hover:animate-spin duration-100">
+              <HiArrowNarrowRight className="ml-2" />
             </span>
           </button>
         </div>
