@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"); 
+
+@layer base{
+  body{
+    @apply font-[Source+Code+Pro]; 
+    @apply bg-bgdark; 
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer; 
+  }
+
+}
