@@ -13,12 +13,13 @@ export default function About() {
             </p>
             <img
               src={avatar}
-              alt=""
-              className=" rounded-lg float-left w-1/2 px-2 py-4"
+              alt="a wild programmer has appeared!"
+              className="rounded-full float-left w-1/2 px-2 py-4 hover:scale-110 duration-700"
             />
             <div>
               <p className="text-4xl font-bold py-4">
-                Hi my name is <span className="">Edgar Montano</span>.
+                Hi my name is{" "}
+                <span className="text-primary">Edgar Montano</span>.
               </p>
             </div>
           </div>

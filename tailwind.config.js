@@ -6,9 +6,10 @@ module.exports = {
       colors: {
         bgdark: "#16697A",
         bglight: "#EDE7E3",
-        primary: "#FFA62B", // electron blue
+        primary: "#FFA62B",
         secondary: "#E17A47",
         tenary: "#EFC958",
+        darker: "#0a192f",
       },
     },
   },

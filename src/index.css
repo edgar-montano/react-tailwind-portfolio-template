@@ -16,3 +16,11 @@
   }
 
 }
+
+
+.tooltip{
+  position: relative;
+  visibility: none;
+  background-color: black;
+  border: 3px solid blue; 
+}

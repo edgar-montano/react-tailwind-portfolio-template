@@ -8,24 +8,25 @@ export default function Home(props) {
       {/* Home */}
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-white text-xl">Hello my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-primary">
+        <span className="text-white text-2xl">Hello my name is</span>
+
+        <h1 className="text-4xl sm:text-7xl font-bold text-primary z-0">
           Edgar Montano
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-white ">
+        <h2 className="text-4xl sm:text-7xl font-bold text-white bg-black">
           {/* NOTE: Check to see if TailwindCSS styles work with TypeWriterEffect.  */}
           <TypeWriterEffect // textStyle={{
             // textStyle={{fontSize: "1.5rem"}}
             startDelay={100}
-            cursorColor="black"
+            cursorColor="white"
             multiText={[
-              "I'm a Full Stack Developer.",
-              "I'm a Backend Engineer.",
-              "I'm a Data Scientist. ",
-              "I'm an Audio Engineer.",
-              "I'm a Hacker.",
-              "I'm an Arch Linux User. 🐧",
-              "I'm a Software Engineer.",
+              "> I'm a Full Stack Developer.",
+              "> I'm a Backend Engineer.",
+              "> I'm a Data Scientist. ",
+              "> I'm an Audio Engineer.",
+              "> I'm a Hacker.",
+              "> I'm an Arch Linux User. 🐧",
+              "> I'm a Software Engineer.",
             ]}
             multiTextLoop={true}
             typeSpeed={50}
