@@ -12,7 +12,6 @@ export default function Navbar() {
       <div>
         <img src={Logo} style={{ width: "100px" }} alt="Logo" />
       </div>
-      {/* desktop */}
 
       <ul className="hidden md:flex ml-auto">
         <li>
@@ -47,7 +46,7 @@ export default function Navbar() {
           className={
             !nav
               ? "hidden"
-              : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+              : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center z-50"
           }
         >
           <li className="py-6 text-4xl">Skills</li>

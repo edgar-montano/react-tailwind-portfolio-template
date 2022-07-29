@@ -3,8 +3,12 @@ import ToolTip from "./ToolTip.jsx";
 export default function SkillCard(props) {
   return (
     <div className="flex flex-wrap focus:ring-8 w-48 rounded-lg shadow-md  hover:shadow-md hover:scale-110">
-      <img className="w-full rounded" src={props.src} alt={props.name} />
-      <div className="w-full ">
+      <img
+        className="w-full rounded w-48 h-48 "
+        src={props.src}
+        alt={props.name}
+      />
+      <div className="">
         <h3 className="text-2xl bg-darker ">
           {props.name}
           <span

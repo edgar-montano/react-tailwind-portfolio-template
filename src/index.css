@@ -7,20 +7,26 @@
 
 @layer base{
   body{
+
     @apply font-[Source+Code+Pro]; 
     @apply bg-bgdark; 
   }
-  li {
-    @apply px-4;
-    @apply cursor-pointer; 
+  li > a {
+    @apply px-4 cursor-pointer hover:text-white hover:animate-pulse;
   }
-
+  a {
+    @apply hover:scale-150; 
+  }
+  .btn{
+    @apply text-white mr-8 hover:scale-110 hover:animate-pulse duration-300 border-2 px-4 py-2 my-2 flex items-center hover:bg-primary hover:border-secondary cursor-pointer; 
+  }
 }
 
-
-.tooltip{
-  position: relative;
-  visibility: none;
-  background-color: black;
-  border: 3px solid blue; 
+.page{
+  @apply w-full h-screen flex justify-center items-center justify-center overflow-hidden;
 }
+
+.flex-container{
+  @apply flex flex-wrap items-center justify-center;
+}
+
