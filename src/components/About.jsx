@@ -4,7 +4,7 @@ import { config } from "../config.js";
 export default function About() {
   const { description, name } = config;
   return (
-    <div name="about" className="page">
+    <div name="about" className="page bg-darker">
       <div className="flex-container flex-col">
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           {/* about me title */}
