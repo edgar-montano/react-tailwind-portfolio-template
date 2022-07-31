@@ -16,7 +16,7 @@ export default function SkillCard(props) {
             data-tooltip-target="tooltip-default"
           >
             <div className="absolute bottom-0 flex flex-col items-center hidden mb-6 group-hover:flex">
-              <span className="relative z-10 p-2 text-xs leading-none text-white whitespace-no-wrap bg-black shadow-lg rounded-sm ">
+              <span className="relative p-2 text-xs leading-none text-white whitespace-no-wrap bg-black shadow-lg rounded-sm ">
                 {props.skillYears}
               </span>
             </div>

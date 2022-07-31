@@ -14,19 +14,28 @@
   li > a {
     @apply px-4 cursor-pointer hover:text-white hover:animate-pulse;
   }
-  a {
-    @apply hover:scale-150; 
-  }
+
   .btn{
     @apply text-white mr-8 hover:scale-110 hover:animate-pulse duration-300 border-2 px-4 py-2 my-2 flex items-center hover:bg-primary hover:border-secondary cursor-pointer; 
   }
 }
 
 .page{
-  @apply w-full h-screen flex justify-center items-center justify-center overflow-hidden;
+  @apply w-full h-screen flex justify-center items-center justify-center;
 }
 
 .flex-container{
   @apply flex flex-wrap items-center justify-center;
 }
 
+.side-item{
+  @apply hover:scale-100 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600; 
+}
+
+.side-item > a {
+  @apply flex justify-between items-center w-full text-gray-300; 
+}
+
+.page-bg {
+  @apply h-full h-screen text-gray-300; 
+}

@@ -1,11 +1,11 @@
 import React from "react";
 import avatar from "../assets/avatar.jpg";
-import config from "../config.json";
+import { config } from "../config.js";
 export default function About() {
   const { description, name } = config;
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
-      <div className="flex flex-col justify-center items-center w-full h-full ">
+    <div name="about" className="page">
+      <div className="flex-container flex-col">
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           {/* about me title */}
           <div className="sm:text-right pb-8 pl-4">
@@ -19,8 +19,7 @@ export default function About() {
             />
             <div>
               <p className="text-4xl font-bold py-4">
-                Hi my name is{" "}
-                <span className="text-primary">Edgar Montano</span>.
+                Hi my name is <span className="text-primary">{name}</span>.
               </p>
             </div>
           </div>
