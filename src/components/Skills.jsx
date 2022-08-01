@@ -1,5 +1,5 @@
 import React from "react";
-import config from "../config.json";
+import { config } from "../config.js";
 
 export default function Skills() {
   const skills = config.skills.map((item) => {
