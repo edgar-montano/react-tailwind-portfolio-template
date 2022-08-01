@@ -19,22 +19,17 @@ export default function About() {
             />
             <div>
               <p className="text-4xl font-bold py-4">
-                Hi my name is <span className="text-primary">{name}</span>.
+                Hi my name is{" "}
+                <span className="text-primary cursor-default">{name}</span>.
               </p>
             </div>
           </div>
 
           {/* about me text */}
-          <div className="max-w-[1000px] w-full grid grid-cols">
-            <p>
-              I've been programming since the age of 12. With a degree in
-              Computer Science from New York University, I've been able to
-              create many wonderful programs, including a child-friendly Linux
-              Operating System, Kidify; along with an educational content
-              management system. I've also done various consultant work for
-              startup companies, most recently I've worked on various projects
-              for RustyTub IT Solutions.
-            </p>
+          <div className="max-w-[1000px] w-full ">
+            <blockquote className="flex p-4 m-4 text-white  text-center">
+              <span className="text-center">{description}</span>
+            </blockquote>
           </div>
         </div>
       </div>

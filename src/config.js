@@ -4,7 +4,8 @@ import { HiOutlineMail } from "react-icons/hi";
 export const config = {
   name: "Edgar Montano",
   image: "src/assets/avatar.jpg",
-  description: "",
+  description:
+    "Degreed Computer Scientist with 5+ years of experience in programming, collaboration, critical thinking, problem solving, and project management. Specialty in Full Stack Web Development and Large Scale Web Applications. ",
   source: "",
   employment_status: true,
   typewriter_text: [
@@ -34,6 +35,7 @@ export const config = {
   skills: [
     {
       name: "Python",
+      level: "Pro",
       libraries: [
         "Django",
         "Scikit",
@@ -46,6 +48,7 @@ export const config = {
     },
     {
       name: "JavaScript",
+      level: "Pro",
       libraries: [
         "TypeScript",
         "Express",
@@ -58,10 +61,12 @@ export const config = {
     },
     {
       name: "Java",
+      level: "Intermediate",
       libraries: ["Jenkins", "Spring Boot", "Maven", "JUnit"],
     },
     {
       name: "DevOps",
+      level: "Pro",
       libraries: [
         "Bash",
         "Linux",
@@ -75,6 +80,7 @@ export const config = {
     },
     {
       name: "Soft Skills",
+      level: false,
       libraries: [
         "Team Player",
         "Project Manager",
