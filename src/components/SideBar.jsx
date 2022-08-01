@@ -12,7 +12,7 @@ export default function SideBar() {
     );
   });
   return (
-    <div className="fixed flex flex-col top-[35%] left-0 hidden lg:block">
+    <div className="fixed top-[35%] left-0 hidden lg:block">
       <ul>{sideBar}</ul>
     </div>
   );

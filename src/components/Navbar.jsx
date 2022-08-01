@@ -13,7 +13,7 @@ export default function Navbar() {
         <img src={Logo} style={{ width: "100px" }} alt="Logo" />
       </div>
 
-      <ul className="hidden md:flex ml-auto">
+      <ul className="flex ml-auto">
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -37,9 +37,9 @@ export default function Navbar() {
       </ul>
 
       {/* hamburger*/}
-      <div onClick={handleClick} className="md:hidden">
+      {/* <div onClick={handleClick} className="md:hidden">
         {!nav ? <FaBars /> : <FaTimes />}
-      </div>
+      </div> */}
       {/* mobile*/}
 
       <SideBar />
