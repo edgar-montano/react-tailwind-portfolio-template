@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaBars, FaTimes } from "react-icons/fa";
+
 import { Link } from "react-scroll";
 import SideBar from "./SideBar.jsx";
 export default function Navbar() {
@@ -44,25 +43,6 @@ export default function Navbar() {
       {/* mobile*/}
 
       <SideBar />
-      {/* <div className="">
-        <ul
-          className={
-            !nav
-              ? "hidden"
-              : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center overflow-hidden"
-          }
-        >
-          <li className="py-6 text-4xl">Skills</li>
-          <li className="py-6 text-4xl">
-            <Link to="about" smooth={true} duration={500}>
-              About
-            </Link>
-          </li>
-          <li className="py-6 text-4xl">Contact</li>
-          <li className="py-6 text-4xl">Home</li>
-        </ul>
-      </div> */}
-      {/* social media */}
     </div>
   );
 }

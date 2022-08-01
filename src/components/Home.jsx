@@ -4,8 +4,7 @@ import TypeWriterEffect from "react-typewriter-effect";
 import { config } from "../config.js";
 import { Link } from "react-scroll";
 export default function Home(props) {
-  const { name, description, employment_status, typewriter_text, source } =
-    config;
+  const { name, employment_status, typewriter_text, source } = config;
   return (
     <div name="home" className="w-full h-screen bg-bgdark">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
