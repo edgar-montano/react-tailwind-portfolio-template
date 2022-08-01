@@ -32,7 +32,7 @@ export default function Home(props) {
             About Me
             <HiArrowCircleDown className="ml-2 animate-bounce" />
           </Link>
-          <a href={source} className="btn">
+          <a href={source} className="btn hidden lg:visible">
             View Source
             <HiArrowCircleRight className="ml-2 animate-bounce" />
           </a>
