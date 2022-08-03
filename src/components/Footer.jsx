@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-black flex flex-wrap justify-center items-center  text-white text-sm">
+    <div className="bg-black flex flex-wrap justify-center items-center pl-1 text-white text-sm">
       This website was made with 💖 in React.js & TailWindCSS. Source code
       freely available on
       <a

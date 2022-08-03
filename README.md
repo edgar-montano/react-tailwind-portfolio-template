@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and utilizes [TailWindCSS](https://tailwindcss.com).
 
-**Note: You do not need advance programming knowledge to use this template! All you need is [Node.js](https://nodejs.org/en/download/) installed. and a decent code editor.**
+**Note: You do not need advance programming knowledge to use this template! All you need is [Node.js](https://nodejs.org/en/download/) installed, and a decent code editor.**
 
 ## Installation
 
@@ -116,17 +116,17 @@ export const sidebar = [
   {
     name: 'LinkedIn',
     library: <FaLinkedin size={30} />, //using icon directly
-    url: 'https://linkedin.com/in/edgar-montano',
+    url: 'https://linkedin.com/in/yourlinkedin',
   },
   {
     name: 'Github',
     library: <FaGithub size={30} />,
-    url: 'https://github.com/edgar-montano',
+    url: 'https://github.com/yourgithub',
   },
   {
     name: 'Email',
     library: <HiOutlineMail size={30} />,
-    url: 'mailto:edgar@edgar-montano.com',
+    url: 'mailto:youremail@email.com',
   },
 ]
 ```
